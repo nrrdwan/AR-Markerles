@@ -30,7 +30,11 @@ public class PinchToZoom : MonoBehaviour
             if (touch.phase == TouchPhase.Moved)
             {
                 float deltaX = touch.deltaPosition.x;
-                transform.Rotate(0f, -deltaX * rotationSpeed, 0f, Space.World);
+                float deltaY = touch.deltaPosition.y;
+
+                // Rotasi kiri-kanan (Y) dan atas-bawah (X)
+                transform.Rotate(Vector3.up, -deltaX * rotationSpeed, Space.World);
+                transform.Rotate(Vector3.right, deltaY * rotationSpeed, Space.World);
             }
         }
         else if (Input.touchCount == 2)
