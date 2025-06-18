@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="bed" size="1024.000000 1024.000000" />
+    <ImageTarget name="cupboard" size="1024.000000 1024.000000" />
+    <ImageTarget name="stair" size="1024.000000 918.385620" />
+    <ImageTarget name="table" size="1024.000000 629.124207" />
+  </Tracking>
+</QCARConfig>
