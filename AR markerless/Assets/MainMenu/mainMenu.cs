@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour
 
     public void Mainkan()
     {
-        SceneManager. LoadScene("startAr");
+        SceneManager. LoadScene("kursi");
     }
 
     public void Informasi()
